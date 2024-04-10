@@ -1,0 +1,231 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide>div {
+  margin: 0 10px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  /* background-color: green; */
+  /* position: relative; */
+  /* top: 148px; */
+  /* ranesaish2003@gmail.com */
+  
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+ */
+
+.main {
+  flex-direction: column;
+  display: flex;
+  /* height: calc(100vh - 271px); */
+  /* background-color: green; */
+  margin-top: 120px;
+  /* overflow: scroll; */
+}
+
+.footer {
+  top: 100vh+100px;
+  position: absolute;
+  width: 100%;
+
+}
+
+.row>* {
+  padding: 0;
+}
+
+.imgSize {
+  width: 100%;
+  height: 100%;
+}
+
+/* style={{ backgroundColor: "blue", padding: "8px", fontSize: "x-large", borderRadius: "20px", fontWeight: "bolder", color: "black",width:"176px", boxShadow: "100px" }} */
+
+.myCarousel-joinUs-btn{
+  background-color: blue;
+  padding: 8px;
+  font-size: x-large;
+  border-radius: 20px;
+  font-weight: bolder;
+  color: black;
+  width: 176px;
+  box-shadow: 100px;
+  background-image: linear-gradient(to right,  lightblue,blue);
+}
+.hero-crousel {
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+  width: 40%;
+  background-color: red;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+
+}
+
+.btn1:hover {
+  background-color: green;
+
+}
+
+
+
+
+
+
+
+/* FEATURES
+ */
+/* 
+.feature {
+  position: relative;
+  top: 230px;
+}
+
+.outer {
+  background-color: #FAF3E0;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+
+  h3 {
+    color: #2C3E50;
+    line-height: 50px;
+  }
+}
+
+.inner {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.carousel {
+  display: flex;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.content {
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+  background-color: #5d6d7ee1;
+  color: #ECF0F1;
+  margin: 20px;
+  min-width: 600px; */
+/* Adjust as needed */
+/* scroll-snap-align: start; */
+/* Ensure each card aligns to the start of the viewport */
+/* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 2fr);
+   */
+
+/* h4 {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    font-size: 1.5rem;
+  }
+sr11intersting
+saishrane20@gmail.com
+
+  transition: all 0.3s linear 0.1s;
+}
+
+.content:hover {
+  box-shadow: 5px 5px 10px #F5B041;
+  scale: 1.015;
+}
+
+.inner-content {
+
+  display: flex;
+  margin: 10px;
+  border-radius: 20px;
+
+  img {
+ */
+/* height: 200px; */
+/* width: 35%;
+    margin: 10px;
+    border-radius: 20px; */
+/* margin: 25px; */
+
+/* } */
+
+/* .text-box {
+    position: relative;
+    top: 10px;
+    font-weight: 500;
+    font-size: 1.0rem;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.carousel {
+  animation: scroll 20s linear infinite; */
+/* Adjust the duration as needed */
+/* Ensure the animation covers the entire width */
+/* width: calc(600px * 2 + 40px); */
+/* (content width * number of cards) + total margin */
+/* } */
+
+/* LASJDF */
+
+/* ///////////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 991px) {
+  .nav-link {
+    display: flex;
+
+    align-items: center;
+    /* justify-content: center; */
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.footer {
+  background-color: green;
+}
